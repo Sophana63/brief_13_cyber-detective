@@ -31,7 +31,7 @@ Voici le lien: [wordcloud.ipynb](https://github.com/Sophana63/brief_13_cyber-det
 Nuage de point  
 ![alt text](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/cloudwords.png)
 
-Dataframe des bi et trigramme  
+Dataframe des bi et trigrammes  
 ![alt text](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/bi-tri-gramme.jpg)
 
 ### Exercice 3 et 4 (Bonus)
