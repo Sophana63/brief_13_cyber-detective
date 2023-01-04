@@ -13,7 +13,7 @@ BONUS:
 
 La plupart du brief a été réalisé avec Jupyter Notebook.  
 Les librairies utilisées sont pandas, numpy, BeautifulSoup, Selenium, pandasql, wordcloud, textblob et matplotlib.  
-Nous utiliserons SQL Serveur pour l'intégration des données.
+Nous utiliserons SQL Serveur pour l'intégration des données. Pour la création de la table, j'ai utilisé un fichier SQL: [SQLQuery_create_table.sql](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/SQLQuery_create_table.sql)  
 
 ### Exercice 1 
 Pour le scraping des données et création, suivre le Notebook suivant: [web-scraping.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/web-scraping.ipynb)  
@@ -27,3 +27,18 @@ L'explication et la création du CSV se trouvent sur le notebook suivant: [inser
 Le nuage de mots a été réalisé avec la librairie wordcloud et représenté avec matplotlib.   
 La fréquence des bigrammes et trigrammes sont dans le même notebook.  
 Voici le lien: [wordcloud.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/wordcloud.ipynb)
+
+Nuage de point  
+![alt text](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/cloudwords.png)
+
+Dataframe des bi et trigramme  
+![alt text](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/bi-tri-gramme.jpg)
+
+### Exercice 3 et 4 (Bonus)
+Les exercices 3 sont en communs dans le même fichier notebook. J'ai mixé les librairies BeautifulSoup pour scraper et Selenium pour automatiser.  
+Le but de l'exercice est de parcourir chacune des pages et d'en récuperer les informations. A chaque cycle et jusqu'à la dernière page, j'appelle ma classe pour les données.  
+L'ouverture se fait avec le navigateur Chrome. Lien : [create_class.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/create_class.ipynb)
+
+### Exercice 5 (Bonus)
+Pour l'analyse des sentiments, j'ai utilisé la librairie textblob. 
+Les explications et les graphiques sont ici : [analyse_sentiment.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/analyse_sentiment.ipynb)
