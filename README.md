@@ -26,6 +26,7 @@ L'explication et la création du CSV se trouvent sur le notebook suivant: [inser
 ### Exercice 2
 Le nuage de mots a été réalisé avec la librairie wordcloud et représenté avec matplotlib.   
 La fréquence des bigrammes et trigrammes sont dans le même notebook.  
+Le nuage de mots a été fait avec __tous les tweets des 5 livres__. Pour chaque livre, [il faudra cliquer ici](#head1234)  
 Voici le lien: [wordcloud.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/wordcloud.ipynb)
 
 Nuage de point  
@@ -42,3 +43,16 @@ L'ouverture se fait avec le navigateur Chrome. Lien : [create_class.ipynb](https
 ### Exercice 5 (Bonus)
 Pour l'analyse des sentiments, j'ai utilisé la librairie textblob. 
 Les explications et les graphiques sont ici : [analyse_sentiment.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/analyse_sentiment.ipynb)
+
+
+### <a name="head1234"></a>Nuage de mots pour chaque livre
+
+Le fichier notebook se trouve ici : [wordcloud_by_book.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/wordcloud_by_book.ipynb)
+
+The Art of War             |  The Book Thief           |  Batman : the Dark Night Return
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/the_art_of_war.png)  |  ![](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/the_book_thief.png)  |  ![](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/batman.png)
+
+The Picture of Dorian Grey             |  The Song of Achilles
+:-------------------------:|:-------------------------:
+![](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/the_picture_of_dorian_grey.png)  |  ![](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/the_song_of_achilles.png)
