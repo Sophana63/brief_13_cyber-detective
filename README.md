@@ -15,7 +15,15 @@ La plupart du brief a été réalisé avec Jupyter Notebook.
 Les librairies utilisées sont pandas, numpy, BeautifulSoup, Selenium, pandasql, wordcloud, textblob et matplotlib.  
 Nous utiliserons SQL Serveur pour l'intégration des données.
 
-### Exercie 1 
+### Exercice 1 
 Pour le scraping des données et création, suivre le Notebook suivant: [web-scraping.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/web-scraping.ipynb)  
 Ensuite, voici l'intégration des données dans SQL Server:  
 ![alt text](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/img/sql_server_request.jpg)
+
+La librairie snscrape m'a permis d'extraire les commentaires de Tweeter basés sur les livres demandés.   
+L'explication et la création du CSV se trouvent sur le notebook suivant: [insert_tweet.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/insert_tweet.ipynb)  
+
+### Exercice 2
+Le nuage de mots a été réalisé avec la librairie wordcloud et représenté avec matplotlib.   
+La fréquence des bigrammes et trigrammes sont dans le même notebook.  
+Voici le lien: [wordcloud.ipynb](https://github.com/Sophana63/brief_13_cyber-detective/blob/master/wordcloud.ipynb)
